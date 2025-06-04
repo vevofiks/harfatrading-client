@@ -14,7 +14,7 @@ export default function ProductDetail() {
   const [showWhatsAppForm, setShowWhatsAppForm] = useState(false);
   const [productDetails, setProductDetails] = useState<Product | null>(null);
 
-  const whatsappNumber = '+97433994217';
+  const whatsappNumber = '+97431399060';
   const productName = decodeURIComponent(params.name as string);
 
   useEffect(() => {

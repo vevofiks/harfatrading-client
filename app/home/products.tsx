@@ -16,7 +16,7 @@ export default function Products() {
   const [showWhatsAppForm, setShowWhatsAppForm] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const whatsappNumber = '+97433994217';
+  const whatsappNumber = '+97431399060';
 
   useEffect(() => {
     newArrivals()

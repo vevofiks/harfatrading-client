@@ -86,7 +86,7 @@ export function About() {
                 </div>
                 <div className="bg-white/5 p-4 rounded-lg backdrop-blur-sm text-center">
                   <div className="text-3xl font-bold text-red-500">10K+</div>
-                  <div className="text-gray-400">Products Available</div>
+                  <div className="text-gray-400">Accessories Available</div>
                 </div>
               </div>
             </div>

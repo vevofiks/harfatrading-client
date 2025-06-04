@@ -120,7 +120,7 @@ export default function Hero() {
         {/* Enhanced Stats with 3D Hover Effect */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
           {[
-            { number: "10K+", label: "Acessories Available", icon: "🚗" },
+            { number: "10K+", label: "Accessories Available", icon: "🚗" },
             { number: "24/7", label: "Support", icon: "🛠️" },
             { number: "98%", label: "Satisfaction", icon: "⭐" },
             { number: "1 Hour", label: "Response Time", icon: "⚡" }
