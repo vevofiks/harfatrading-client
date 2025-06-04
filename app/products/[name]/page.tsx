@@ -14,7 +14,6 @@ export default function ProductDetail() {
   const [showWhatsAppForm, setShowWhatsAppForm] = useState(false);
   const [productDetails, setProductDetails] = useState<Product | null>(null);
 
-  const whatsappNumber = '+97431399060';
   const productName = decodeURIComponent(params.name as string);
 
   useEffect(() => {
@@ -26,6 +25,9 @@ export default function ProductDetail() {
         console.error('Error fetching product details:', error);
       });
   }, [productName]);
+
+  const whatsappNumber = '+97431399060';
+
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#1e293b] to-[#0f172a] text-white relative">

@@ -16,7 +16,6 @@ export default function Products() {
   const [showWhatsAppForm, setShowWhatsAppForm] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const whatsappNumber = '+97431399060';
 
   useEffect(() => {
     newArrivals()
@@ -26,6 +25,8 @@ export default function Products() {
   }, []);
 
   const MotionLink = motion(Link);
+  const whatsappNumber = '+97431399060';
+
 
   if (loading)
     return (
