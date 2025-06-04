@@ -1,0 +1,63 @@
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+@import 'swiper/css/effect-fade';
+
+.review-slider {
+  --swiper-theme-color: #dc2626;
+  --swiper-navigation-size: 25px;
+}
+
+.review-slider .swiper {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #dc2626 !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: var(--swiper-navigation-size);
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #dc2626 !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-container {
+  overflow: hidden;
+}
+
+/* Add hover effects for review cards */
+.swiper-slide-active .bg-white\/5 {
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-active .bg-white\/5:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(220, 38, 38, 0.1);
+} 
