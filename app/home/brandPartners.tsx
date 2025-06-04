@@ -58,26 +58,24 @@ function App() {
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: 'spring', stiffness: 400, damping: 10 }}
                 >
-                <div className="flex flex-col items-center w-[240px] group">
-  <div className="relative w-full h-[120px]">
-    <Image
-      src={partner.image}
-      alt={partner.name}
-      fill
-      className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-all duration-300 grayscale group-hover:grayscale-0"
-    />
-  </div>
-  <motion.span
-    className="mt-4 px-3 py-1 rounded bg-black bg-opacity-60 text-white text-base font-semibold tracking-wide"
-    initial={{ y: 10, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    transition={{ duration: 0.4 }}
-  >
-    {partner.name}
-  </motion.span>
-</div>
-
-
+                  <div className="flex flex-col items-center w-[240px] group">
+                    <div className="relative w-full h-[120px]">
+                      <Image
+                        src={partner.image}
+                        alt={partner.name}
+                        fill
+                        className="object-contain p-4 opacity-90 group-hover:opacity-100 transition-all duration-300 grayscale group-hover:grayscale-0"
+                      />
+                    </div>
+                    <motion.span
+                      className="mt-4 px-3 py-1 rounded bg-black bg-opacity-60 text-white text-base font-semibold tracking-wide"
+                      initial={{ y: 10, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.4 }}
+                    >
+                      {partner.name}
+                    </motion.span>
+                  </div>
                 </motion.div>
               ))}
             </motion.div>
