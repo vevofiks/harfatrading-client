@@ -7,7 +7,7 @@ function App() {
   const partners = [
     { name: 'qmacx', image: '/assets/qmax-bg.png' },
     { name: 'imacx', image: '/assets/imax-bg.png' },
-    { name: 'dumacx', image: '/assets/dumax-bg.png' },
+    { name: 'dumax', image: '/assets/dumax-bg.png' },
     { name: 'dupond', image: '/assets/dupond-bg.png' },
     { name: 'flash cars', image: '/assets/flashcar-bg.png' },
     { name: 'qmacx', image: '/assets/qmax-bg.png' },
