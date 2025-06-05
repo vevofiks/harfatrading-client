@@ -17,12 +17,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Harfatrading | Best Car Accessories Wholesale in Qatar",
-  description: "Discover top-quality car accessories at wholesale prices in Qatar. Harfa Trading offers a wide range of products for all vehicle types, ensuring customer satisfaction.",
+  title: {
+    default: "harfatrading | best car accessories wholesale in qatar , doha",
+    template: "%s | harfatrading",
+  },
+  description: "discover top-quality car accessories at wholesale prices in qatar, doha.",
   icons: {
     icon: "/favicon.ico",
   },
 };
+
 
 
 
