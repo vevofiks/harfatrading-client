@@ -120,7 +120,6 @@ export default function ProductsPage() {
         const errorData = await res.json();
         throw new Error(errorData.message || 'Failed to update product');
       }
-        console.log("resssponse",res.json())
 
       const updatedProduct = await res.json();
       console.log('Updated product:', updatedProduct.data);
