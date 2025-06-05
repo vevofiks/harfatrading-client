@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 export const metadata: Metadata = {
   title: {
-    default: "harfatrading - Best Car Accessories Wholesale in Qatar, Doha",
+    default: "harfatrading | best car accessories wholesale in Qatar",
     template: "%s | harfatrading",
   },
   description: "Buy top-quality car accessories at wholesale prices from harfatrading in Doha, Qatar. Trusted automotive partner.",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "harfatrading - Best Car Accessories Wholesale in Qatar, Doha",
-    description: "Explore Qatar's best wholesale auto accessories with harfatrading. Shop trusted quality parts.",
+    title: "harfatrading | best car accessories wholesale in Qatar",
+    description: "Discover premium car accessories and auto parts at unbeatable wholesale prices in Qatar.",
     url: "https://www.harfatrading.com",
     type: "website",
     siteName: "harfatrading",
