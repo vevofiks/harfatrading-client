@@ -1,0 +1,14 @@
+name: Keep Render Backend Warm
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: 
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hit Products API to keep backend warm
+        run: curl -s https://harfatradingwll.onrender.com/admin/products
