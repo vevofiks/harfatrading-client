@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Hit Products API to keep backend warm
-        run: curl -s https://harfatradingwll.onrender.com/admin/products
+        run: curl -s https://harfatradingwll.onrender.com/admin/product/new-arrivals
